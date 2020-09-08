@@ -1,0 +1,32 @@
+body{
+    background: url("../img/bgfull.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+    box-sizing: border-box;
+    color: white;
+}
+body h1{
+    font-size: 80px;
+    float: left;
+    margin: 0px;   
+    
+}
+
+header{
+    background-color: rgba(14, 112, 44, 0.514);
+    border-radius: 0;
+    border: 0;
+    clear: both;
+    padding: 0px;
+    box-sizing: content-box;
+    
+}
+
+@media (max-width: 496px) {
+    body{
+        background: url("../img/bg.png");
+        background-size: cover;
+    }
+    
+}
