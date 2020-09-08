@@ -2,25 +2,17 @@ body{
     background: url("../img/bgfull.png");
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 10px;
-    box-sizing: border-box;
     color: white;
 }
-body h1{
-    font-size: 80px;
-    float: left;
-    margin: 0px;   
-    
-}
 
-header{
+#header-nav{
     background-color: rgba(14, 112, 44, 0.514);
     border-radius: 0;
     border: 0;
-    clear: both;
-    padding: 0px;
-    box-sizing: content-box;
-    
+    padding : 10px;
+  }
+#header-nav h1{
+    float: left;
 }
 
 @media (max-width: 496px) {

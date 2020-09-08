@@ -6,20 +6,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>
-
         Twitch Extension
     </title>
+    <link rel="stylesheet" href="assets/Css/bootstrap.css">
     <link rel="stylesheet" href="assets/Css/Style.css">
 </head>
 
 <body>
+    <!-- Header con el titulo y un boton de recarga -->
     <header>
-            <h1>highscores</h1>
-            <button id="reload">reload</button>
+        <nav id="header-nav" class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <h1>highscores</h1>
+                    <button id="reload">reload</button>
+                </div>
+            </div>
+        </nav>    
     </header>
     <!-- contenido principal-->
-    
+
     <div id="main-content" class="container"> </div>
+
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/ajax-utils.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
